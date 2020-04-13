@@ -1,104 +1,114 @@
-header {
-  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
-  background-size: 900px 300px;
-  width:1000px;
-  height: 300px;  
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom:40px;
-  padding: 0px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
+/*Ez után levők a globálisan használt style elemek*/
+body {
+    background-image: 	url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
+h1 {
+	font-size: larger;
+
+}
+
+.line {
+	height: 10px;
+}
+
+/*Az eze után levők az egye boxokra érvényessek*/
 .container {
-  margin: auto;
-  width: 1000px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 50px;
+	clear: both;
+	/*átmenetileg*/
+	background-color: yellow;
+	height: 800px;
 }
 
-.Anakin_Skywalker {
-  font-size: 180%;
+.header {
+	margin: 00px 30px 20px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-size: 150px;
+	width: 70%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background-color: honeydew;*/
 }
 
-.cim {
-  position: relative;
-  top: 180px;
-  left: 230px;
-  color: #222;
+.header_menü li {
+	
+	width: 120px;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 20px;
 }
 
-main {
-  padding: 0px;
-  width: 600px;
-  position: relative;
-  left: 230px;
+.header_menü {
+	margin: auto;
+	margin-top: none;
+	padding-top: none;
+	margin-left: 40px;
+	background-color: aquamarine;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
 }
 
-.first_paragraph {
-  font-family: 'Abril Fatface', cursive;
-  color: #222;
+
+
+.Back_button {
+	/*width: 50px;*/
+	float: left;
+	position: fixed;
+	/*margin-bottom: 10px;*/
 }
 
-.emp {
-  font-family: 'Josefin Sans', cursive;
-  margin-top: 0px;
+.navigation {
+	width: 300px;
+	float: left;
+	margin-left: 30px;
+
+	height: 300px;
+	background-color: yellowgreen;
 }
 
-ul {
-  color: black;;
+.main {
+	width: 800px;
+	float: right;
+	margin-right: 30px;
+
+	
+	background-color: green;
 }
 
-li {
-  list-style-type: square;
-  font-weight: lighter;
-  color: #222;
-  padding-bottom: 5px;
+.varju_andras_image {
+	float: right;
+	margin-right: 20px;
+}
+.description {
+	float: left;
+	width: 500px;
+	padding-left: 25px;
 }
 
-h2 {
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 600;
-  color: #222;
+
+.footer {
+	clear: both;
+	background-color: grey;
+	
+	
 }
 
-h3 {
-  font-family: 'Merriweather', serif;
-  margin-bottom: 0px;
-  padding-bottom:0px;
-}
 
-p {
-  color: #222;
-}
-
-blockquote {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  
-  padding: 0px;
-  margin: 0px;
-  margin-bottom: 20px;
-  font-size:35px;
-  
-  background-color: dimgray;
-  color: white;
-  font-weight: bold;
-  
-}
-blockquote::before {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-size: 100px;
-  top: -22px;
-  content: "“" ;
-  position: relative;
-} 
-
-hr {
-  background-color: black;
+.welcome {
+	/*h1-nak a welcome*/
+	
+	font-size: 50px;
+	color: blue;
 }
